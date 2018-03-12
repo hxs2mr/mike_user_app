@@ -1,0 +1,230 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="发送" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bt_send"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/bt_send"
+        android:background="@drawable/box_one"
+        android:paddingLeft="10dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <android.support.v7.widget.ContentFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bt_send"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="体温测量：" />
+
+    <EditText
+        android:id="@+id/et_ble_names"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_content"
+        android:layout_toRightOf="@+id/tv_name"
+        android:background="@drawable/box_one"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:hint="同时输入多个,以英文逗号隔开 "
+        android:text="FSRKB-EWQ01"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bt_confirm"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_ble_names"
+        android:text="连接" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tv_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bt_send"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="血压测量：" />
+
+        <EditText
+            android:id="@+id/et_ble_names1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_below="@+id/et_content"
+            android:layout_toRightOf="@+id/tv_name"
+            android:background="@drawable/box_one"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:hint="同时输入多个,以英文逗号隔开 "
+            android:text="FSRKB_BT-001"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/bt_confirm1"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/et_ble_names"
+            android:text="连接" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tv_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bt_send"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="同时测量：" />
+
+        <EditText
+            android:id="@+id/et_ble_names2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_below="@+id/et_content"
+            android:layout_toRightOf="@+id/tv_name"
+            android:background="@drawable/box_one"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:hint="同时输入多个,以英文逗号隔开 "
+            android:text="FSRKB_BT-001"
+            android:ems="10" />
+        <Button
+            android:id="@+id/bt_confirm2"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/et_ble_names"
+            android:text="连接" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textSize="20dp"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/tv_log_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_log"
+            android:textSize="20dp"
+            android:text=""
+            />
+    </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+        <RelativeLayout
+            android:id="@+id/pro_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:background="#a2282828"
+            android:layout_marginRight="40dp" >
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/dialog_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:src="@mipmap/progress" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dialog_pro"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="20dp"
+                android:text="- -"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.ContentFrameLayout>
+    <Button
+        android:id="@+id/bt_clean"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/bt_confirm"
+        android:layout_alignBottom="@+id/bt_confirm"
+        android:layout_toLeftOf="@+id/bt_confirm"
+        android:text="清屏" />
+
+</android.support.v7.widget.LinearLayoutCompat>

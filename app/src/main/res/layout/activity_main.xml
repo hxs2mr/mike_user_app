@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <android.support.v7.widget.ContentFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<android.support.v7.widget.AppCompatTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="#F7FBFF"
+    android:textColor="#49A2FF"
+    android:textSize="20sp"
+    android:text="当前设备"
+    android:layout_gravity="center"
+    android:gravity="center|left"
+    android:paddingLeft="24dp"
+    />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:orientation="horizontal"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/xueya_left_image"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:background="@mipmap/no_connect"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#798DAA"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            android:text="血压计"
+            android:layout_gravity="center"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/xueya_connect_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#49A2FF"
+            android:text="等待连接"
+            android:background="@drawable/onclick_seletct"
+            android:paddingRight="24dp"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_height="1dp"
+        android:background="#F6F9FB"
+        />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:orientation="horizontal"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/wen_left_image"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:background="@mipmap/no_connect"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#798DAA"
+            android:textSize="16sp"
+            android:text="温度计"
+            android:paddingLeft="8dp"
+            android:layout_gravity="center"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/wen_connect_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#49A2FF"
+            android:text="等待连接"
+            android:paddingRight="24dp"
+            android:background="@drawable/onclick_seletct"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:orientation="horizontal"
+            >
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/xueyan_left_image"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/no_connect"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#798DAA"
+                android:textSize="16sp"
+                android:text="血氧计"
+                android:paddingLeft="8dp"
+                android:layout_gravity="center"
+                />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/xueyan_connect_status_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textColor="#49A2FF"
+                android:gravity="center"
+                android:text="等待连接"
+                android:background="@drawable/onclick_seletct"
+                android:paddingRight="24dp"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#F7FBFF"
+        android:textColor="#49A2FF"
+        android:textSize="20sp"
+        android:text="测量数据"
+        android:layout_gravity="center"
+        android:gravity="center|left"
+        android:paddingLeft="24dp"
+        />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="24dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                >
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#424E61"
+                    android:textSize="14sp"
+                    android:text="收缩压"
+                    />
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/xueya_shou_value_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#798DAA"
+                        android:layout_gravity="center|left"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:paddingBottom="5dp"
+                        android:text="--"
+                        />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#798DAA"
+                android:text="mmhg"
+                android:paddingBottom="5dp"
+                android:layout_gravity="bottom"
+                />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/xueya_shou_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginRight="24dp"
+                android:paddingBottom="5dp"
+                android:textSize="12sp"
+                android:text="未测"
+
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F6F9FB"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="24dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                >
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#424E61"
+                    android:textSize="14sp"
+                    android:text="舒张压"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/xueya_shu_value_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#798DAA"
+                    android:layout_gravity="center|left"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:paddingBottom="5dp"
+                    android:text="--"
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#798DAA"
+                android:text="mmhg"
+                android:paddingBottom="5dp"
+                android:layout_gravity="bottom"
+                />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/xueya_shu_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginRight="24dp"
+                android:text="未测"
+                android:paddingBottom="5dp"
+                android:textSize="12sp"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F6F9FB"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="24dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                >
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#424E61"
+                    android:textSize="14sp"
+                    android:text="脉搏"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/mai_value_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#798DAA"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:layout_gravity="center|left"
+                    android:paddingBottom="5dp"
+                    android:text="--"
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#798DAA"
+                android:text="bpm"
+                android:layout_gravity="bottom"
+                android:paddingBottom="5dp"
+                />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mai_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginRight="24dp"
+                android:text="未测"
+                android:textSize="12sp"
+                android:paddingBottom="5dp"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F6F9FB"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="24dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                >
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#424E61"
+                    android:textSize="14sp"
+                    android:text="血氧"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/yan_value_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#798DAA"
+                    android:layout_gravity="center|left"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:textSize="22sp"
+                    android:text="--"
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#798DAA"
+                android:text="%"
+                android:paddingBottom="5dp"
+                android:layout_gravity="bottom"
+                />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/xueyan_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginRight="24dp"
+                android:text="未测"
+                android:textSize="12sp"
+                android:paddingBottom="5dp"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F6F9FB"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            />
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="24dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                >
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#424E61"
+                    android:textSize="14sp"
+                    android:text="体温"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/wen_value_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#798DAA"
+                    android:layout_gravity="center|left"
+                    android:gravity="center"
+                    android:textSize="22sp"
+                    android:paddingBottom="5dp"
+                    android:text="--"
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#798DAA"
+                android:text="℃"
+                android:paddingBottom="5dp"
+                android:layout_gravity="bottom"
+                />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/wen_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginRight="24dp"
+                android:text="未测"
+                android:textSize="12sp"
+                android:paddingBottom="5dp"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F6F9FB"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            />
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="@mipmap/main_logo"
+                android:layout_marginBottom="10dp"
+                />
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <RelativeLayout
+            android:id="@+id/pro_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:background="#a2282828"
+            android:cursorVisible="false"
+            android:layout_marginRight="40dp" >
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/dialog_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:src="@mipmap/progress" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dialog_pro"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="20dp"
+                android:text="- -"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.ContentFrameLayout>
+</android.support.v7.widget.LinearLayoutCompat>
